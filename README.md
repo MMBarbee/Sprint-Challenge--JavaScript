@@ -42,7 +42,21 @@ A closure is a function that gives you access to another functions scope from an
 
 4. Describe the four rules of the 'this' keyword.
 
+Window/Global Object Binding - 
+Whenever a function is contained in the global scope, the value of this inside of that function will be the window object.
+
+Implicit Binding -
+The object that is standing before the dot is what the this keyword will be bound to.
+
+New binding -
+Using the 'this' keyword when creating a new object
+
+Explicit binding -
+When using a method on a function like  .call(), .apply(), or .bind() you are explicitly passing in a this context to call() or apply()
+
 5. Why do we need super() in an extended class?
+
+The super keyword is needed to call and access the parent object so we can use methods that we used perviously in the parent object
 
 ## Project Set up
 
