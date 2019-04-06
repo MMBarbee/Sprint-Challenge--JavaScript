@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
+A function is a set of rules or a task that accepts values and can be applied/invoked to return an output. A method is used implicitly in object oriented programming. 
+
 3. What is closure?
+
+A closure is a function that gives you access to another functions scope from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
 
