@@ -26,7 +26,10 @@
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-
+    /* It can access the variable because of function scope. 
+    That means any variables declared within a function are visible anywhere 
+    within that same function. But with block scope, the visibility of 
+    variables is confined to any given block */
 
 const external = "I'm outside the function";
 
