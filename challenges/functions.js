@@ -17,16 +17,16 @@ function consume (x, y, callback){
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-function add(a, b){
-  return a + b;
+const add = function(x, y){
+  console.log(x + y) 
 }
 
-function multiply(a, b){
-  return a * b;
+const multiply = function(x, y){
+  console.log(x * y) 
 }
 
-function greeting(a, b){
-  return `Hello ${a} ${b}, nice to meet you!`;
+const greeting = function(x, y){
+  console.log(`Hello ${x} ${y}, nice to meet you!`);
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
