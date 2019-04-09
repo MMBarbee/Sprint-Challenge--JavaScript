@@ -56,7 +56,7 @@ When using a method on a function like  .call(), .apply(), or .bind() you are ex
 
 5. Why do we need super() in an extended class?
 
-The super keyword is needed to call and access the parent object so we can use methods that we used perviously in the parent object
+The super keyword is needed to call and access the parent object.
 
 ## Project Set up
 
